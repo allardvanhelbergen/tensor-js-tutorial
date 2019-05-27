@@ -1,0 +1,17 @@
+{
+  "name": "tensor-js-tutorial",
+  "version": "1.0.0",
+  "description": "TensorFlow js tutorial from LearnCode.academy",
+  "main": "dist/index.js",
+  "license": "ISC",
+  "scripts": {
+    "build": "parcel --target=node src/index.js",
+    "start": "yarn build & nodemon"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.1.2",
+    "@tensorflow/tfjs-node": "^1.1.2",
+    "nodemon": "^1.19.1",
+    "parcel": "^1.12.3"
+  }
+}
